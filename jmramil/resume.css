@@ -27,19 +27,14 @@ body {
   background-color: #2196F3;
 }
 
-#Intro {
+#Resume {
   top: 80px;
   background-color: #555;
 }
 
-#Resume {
+#Blog {
   top: 140px;
   background-color: #2196F3;
-}
-
-#Contact {
-  top: 200px;
-  background-color: #555;
 }
 
 ul{

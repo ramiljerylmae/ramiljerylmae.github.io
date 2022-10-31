@@ -27,19 +27,14 @@ body {
   background-color: #2196F3;
 }
 
-#Intro {
+#Resume {
   top: 80px;
   background-color: #555;
 }
 
-#Resume {
+#Blog {
   top: 140px;
   background-color: #2196F3;
-}
-
-#Contact {
-  top: 200px;
-  background-color: #555;
 }
 
 ul{
@@ -71,6 +66,7 @@ h2{
 font-size: 50px;
 color: white;
 font-family: Times New Roman;
+text-align: center;
 }
 
 h2:hover{
@@ -101,15 +97,9 @@ color: #2196F3;
 transition-duration: 1.5s;
 }
 
-img {
-width: 200px;
-height: 200px;
-border-radius: 50px;
-}
-
 table{
 width:100%;
-margin: 75px 0px 0px 0px;
+margin: 75px 0px 50px 0px;
 }
 
 table, th, td{
@@ -136,4 +126,14 @@ font-size: 25px;
 td:hover{
 color: #2196F3;
 transition-duration: 1s;
+}
+
+img {
+width: 25%;
+height: 25%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 20px 0px 0px 0px;
+border-radius: 50px;
 }

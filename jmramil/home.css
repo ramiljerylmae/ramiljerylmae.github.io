@@ -27,19 +27,14 @@ body {
   background-color: #2196F3;
 }
 
-#Intro {
+#Resume {
   top: 80px;
   background-color: #555;
 }
 
-#Resume {
+#Blog {
   top: 140px;
   background-color: #2196F3;
-}
-
-#Contact {
-  top: 200px;
-  background-color: #555;
 }
 
 ul{
@@ -79,7 +74,7 @@ color: #2196F3;
 transition-duration: 1.5s;
 }
 
-p{
+h3{
 font-size: 50px;
 color: white;
 text-align: center;
@@ -88,4 +83,45 @@ font-family: Times New Roman;
 
 span{
 font-weight: bold;
+}
+
+span:hover{
+color: #2196F3;
+transition-duration: 1.5s;
+}
+
+img {
+border-radius: 12px;
+}
+
+.left {
+width: 100%;
+height: 800px;
+text-align: center;
+}
+
+.right {
+width: 100%;
+height: 200px;
+text-align: center;
+}
+
+.gallery{
+width: 100%;
+height: 100%;
+text-align: center;
+float:left;
+margin: 0px 0px 50px 0px;
+}
+
+p{
+font-size: 30px;
+color: white;
+text-align: center;
+font-family: Times New Roman;
+text-align: center;
+text-align: justify;
+text-align-last: center;
+margin: 0 auto;
+width: 30em;
 }
